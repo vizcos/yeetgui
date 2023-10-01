@@ -32,7 +32,7 @@ end
  
 local function notif(str,dur)
 	game:FindService("StarterGui"):SetCore("SendNotification", {
-		Title = "yeet gui",
+		Title = "Yeet GUI",
 		Text = str,
 		Icon = "rbxassetid://2005276185",
 		Duration = dur or 3
@@ -75,7 +75,7 @@ Title.BorderSizePixel = 0
 Title.Position = UDim2.new(0, 0, 0.295454562, 0)
 Title.Size = UDim2.new(0, 454, 0, 30)
 Title.Font = Enum.Font.SourceSans
-Title.Text = "FE Yeet GUI [Trollface Edition - Improved by vzi]™"
+Title.Text = "FE Yeet GUI - Trollface Edition"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
 Title.TextSize = 14.000
@@ -87,7 +87,7 @@ TextBox.BorderSizePixel = 0
 TextBox.Position = UDim2.new(0.0704845786, 0, 0.270642221, 0)
 TextBox.Size = UDim2.new(0, 388, 0, 62)
 TextBox.Font = Enum.Font.SourceSans
-TextBox.PlaceholderText = "Who do I destroy? >:)"
+TextBox.PlaceholderText = "Who do I destroy [can be shortened]"
 TextBox.Text = ""
 TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextBox.TextScaled = true
@@ -126,4 +126,4 @@ end)
  
 --//fsddfsdf
 notif("Loaded successfully! Ready to yeet!", 5)
-notif("FE Yeet GUI is now ready! Improved by vzi.", 5)
+notif("FE Yeet GUI is now ready! Improved by vzi.", 3)
